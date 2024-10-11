@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karupasamy's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/free-photo/young-wheat-green-field_1268-29146.jpg');/* Replace with a real image link */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about, .farming-practices, .portfolio {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-success text-white text-center py-5">
+        <h1>Welcome to Karupasamy's Portfolio</h1>
+        <p>A Dedicated Farmer Cultivating Rice and Millets</p>
+    </header>
+
+    <section class="about text-center my-5">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am Karupasamy, a passionate farmer who cultivates rice and millets. With a 10th-grade education, I combine traditional farming techniques with innovative practices to ensure sustainability.</p>
+            <p>Farming is not just a profession for me; it's a way of life. I believe in nurturing the land and preserving our natural resources for future generations. My goal is to produce high-quality crops while maintaining ecological balance.</p>
+        </div>
+    </section>
+
+    <section class="farming-practices my-5">
+        <div class="container">
+            <h2 class="text-center">Farming Practices</h2>
+            <p>My approach to farming includes:</p>
+            <ul>
+                <li><strong>Organic Farming:</strong> I focus on using organic fertilizers and natural pest control methods to maintain soil health.</li>
+                <li><strong>Crop Rotation:</strong> Implementing crop rotation helps in maintaining soil fertility and reducing pests.</li>
+                <li><strong>Water Conservation:</strong> I use drip irrigation to conserve water and ensure that my crops receive adequate moisture.</li>
+                <li><strong>Community Engagement:</strong> I actively engage with local farming communities to share knowledge and best practices.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="portfolio my-5">
+        <div class="container">
+            <h2 class="text-center">My Work</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/035/540/306/small_2x/ai-generated-green-rice-fields-in-the-rainy-season-beautiful-natural-scenery-photo.jpg" class="card-img-top" alt="Rice Field">
+                        <div class="card-body">
+                            <h5 class="card-title">Rice Cultivation</h5>
+                            <p class="card-text">A view of my flourishing rice fields, nurtured with care and dedication.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://www.zettafarms.com/wp-content/uploads/2024/01/blog-7.jpg" class="card-img-top" alt="Millets Field">
+                        <div class="card-body">
+                            <h5 class="card-title">Millet Farming</h5>
+                            <p class="card-text">Exploring the diverse techniques in millet farming to enhance yield and quality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1270570904/photo/harvesting-machine-approaching-wheat.jpg?s=612x612&w=0&k=20&c=jwDSrUojVqrpsjiSpIaHStrJWUnLHlXKlJlXXu2dhGE=" height="195px" class="card-img-top" alt="Harvest">
+                        <div class="card-body">
+                            <h5 class="card-title">Harvest Season</h5>
+                            <p class="card-text">Celebrating the harvest season with my family, a time of joy and gratitude.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/643644662/photo/managing-their-urban-garden.jpg?s=612x612&w=0&k=20&c=L0gUJEZMfyeQXZPCE24eFcBzajjsDsiGSdZNuPnCIjI=" class="card-img-top" alt="Community Work">
+                        <div class="card-body">
+                            <h5 class="card-title">Community Outreach</h5>
+                            <p class="card-text">Conducting workshops to educate fellow farmers about sustainable practices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://agritech.tnau.ac.in/seed_certification/seed_tech_Inspection_clip_image002_0000.jpg" class="card-img-top" alt="Field Inspection">
+                        <div class="card-body">
+                            <h5 class="card-title">Field Inspection</h5>
+                            <p class="card-text">Regularly inspecting fields to monitor crop health and address issues promptly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="data:image/jpeg;base64,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" height="220px" class="card-img-top" alt="Tools of the Trade">
+                        <div class="card-body">
+                            <h5 class="card-title">Tools of the Trade</h5>
+                            <p class="card-text">Utilizing modern tools and techniques to improve efficiency in farming operations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Karupasamy. All rights reserved.</p>
+        <p>Email: karupasamy@example.com | Phone: +91-1234567890</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

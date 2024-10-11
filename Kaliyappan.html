@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaliyappan's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://img.freepik.com/free-photo/young-wheat-green-field_1268-29146.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        header {
+            background: green;
+            color: white;
+            padding: 60px 0;
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .section {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            animation: slideIn 0.5s ease-in;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .card {
+            margin-bottom: 20px;
+            transition: transform 0.2s;
+        }
+        .card img{
+            height: 250px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="text-center">
+        <h1>Welcome to Kaliyappan's Portfolio</h1>
+        <p>A Computer Science Engineer with a Passion for Farming</p>
+    </header>
+
+    <section class="about section">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <p>I am Kaliyappan, a Computer Science engineer who blends technology with agriculture. Growing up in a farming family, I have a deep understanding of the challenges faced by farmers and the importance of sustainable practices.</p>
+            <p>My goal is to leverage my technical skills to innovate solutions that improve farming efficiency and sustainability, ensuring a better future for the agricultural sector.</p>
+        </div>
+    </section>
+
+    <section class="skills section">
+        <div class="container">
+            <h2 class="text-center">Technical Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, Java, C++</li>
+                <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Flask</li>
+                <li><strong>Data Analysis:</strong> Using tools like Excel and Python libraries for data insights</li>
+                <li><strong>IoT in Agriculture:</strong> Implementing smart farming techniques using IoT devices</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="farming-practices section">
+        <div class="container">
+            <h2 class="text-center">Involvement in Farming</h2>
+            <p>Alongside my studies, I actively help my father manage our farm by:</p>
+            <ul>
+                <li><strong>Implementing Technology:</strong> Utilizing software tools for crop management and data tracking.</li>
+                <li><strong>Soil Health Monitoring:</strong> Using sensors to analyze soil conditions for better crop yields.</li>
+                <li><strong>Community Outreach:</strong> Educating local farmers on the benefits of technology in agriculture.</li>
+                <li><strong>Sustainable Practices:</strong> Promoting organic farming and resource conservation techniques.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="portfolio section">
+        <div class="container">
+            <h2 class="text-center">My Work</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q7NIqwlB8b57CVMqxgKLFcYH64JBgWyHQw&s" class="card-img-top" alt="Smart Farming">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Farming</h5>
+                            <p class="card-text">Developing applications to monitor and manage farm conditions remotely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Crop Monitoring">
+                        <div class="card-body">
+                            <h5 class="card-title">Crop Monitoring</h5>
+                            <p class="card-text">Using drones and sensors to assess crop health and optimize resources.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnk3NAJnWP3gUMPX71GUeASchrGw387VsQcw&s" class="card-img-top" alt="IoT Devices">
+                        <div class="card-body">
+                            <h5 class="card-title">IoT Devices</h5>
+                            <p class="card-text">Implementing IoT devices for real-time monitoring of farm conditions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kaliyappan. All rights reserved.</p>
+        <p>Email: kaliyappan@example.com | Phone: +91-1234567890</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
